@@ -1,7 +1,7 @@
 {
     "name": "midhundevasia/json-ast",
     "type": "library",
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "description": "JSON to AST parser in PHP",
     "homepage": "https://github.com/midhundevasia/json-ast",
     "license": ["GPL-3.0+"],

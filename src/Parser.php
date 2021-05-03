@@ -398,6 +398,9 @@ class Parser
                         'value' => $array,
                         'index' => $index +1
                     ];
+                } elseif ($token['type'] === TokenTypes::T_COMMA) {
+                    $state = ObjectStates::COMMA;
+                    $index++;
                 } else {
                     $value = $this->parseValue($input, $tokenList, $index, $config);
                     $index = $value['index'];
